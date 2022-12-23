@@ -8,7 +8,7 @@ import { pink } from "@mui/material/colors";
 
 const Logo = () => {
   return (
-    <Box sx={flexBetween}>
+    <Box sx={flexBetween} alignItems="center">
       <FaAirbnb size={40} color={pink[500]} />
       <Typography
         sx={{
