@@ -2,10 +2,15 @@ import React from "react";
 
 import { Box, Container } from "@mui/material";
 
-import { dFlex, flexBetweenCenter } from "../themes/commonThemes";
+import {
+  dFlex,
+  displayOnDesktop,
+  flexBetweenCenter,
+} from "../themes/commonThemes";
 import LocationSearch from "./LocationSearch";
 import Logo from "./Logo";
 import ProfileSettings from "./ProfileSettings";
+import MobileSearch from "./MobileSearch";
 
 const Header = () => {
   return (
@@ -24,9 +29,21 @@ const Header = () => {
             px: 4,
           }}
         >
-          <Logo />
-          <LocationSearch />
-          <ProfileSettings />
+          <Box sx={displayOnDesktop}>
+            <Logo />
+          </Box>
+
+          <Box sx={displayOnDesktop}>
+            <LocationSearch />
+          </Box>
+
+          <Box sx={displayOnDesktop}>
+            <ProfileSettings />
+          </Box>
+
+          <Box sx={{ display: { xs: "flex", md: "none" } }}>
+            <MobileSearch />
+          </Box>
         </Box>
       </Container>
     </Box>

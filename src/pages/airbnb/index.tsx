@@ -5,7 +5,6 @@ import CssBaseline from "@mui/material/CssBaseline";
 
 import Header from "../../components/airbnb/Header";
 import AppThemeProvider from "../../components/themes/AppThemeProvider";
-import ProfileSettings from "../../components/airbnb/ProfileSettings";
 
 const Index = () => {
   return (
