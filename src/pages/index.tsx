@@ -1,11 +1,10 @@
-import { Box, Typography } from "@mui/material";
 import type { NextPage } from "next";
 import Head from "next/head";
 import Link from "next/link";
-import ColorPalette from "../components/ColorPalette";
+
+import { Box, Typography } from "@mui/material";
 
 import Header from "../components/Header";
-import UIList from "../components/UIList";
 
 const Home: NextPage = () => {
   return (
@@ -20,13 +19,11 @@ const Home: NextPage = () => {
       <Header />
       <main className="flex flex-col w-full h-screen px-6 pt-10 mx-auto max-w-7xl">
         <Box>
-          <Typography variant="h4">リンク</Typography>
+          <Typography variant="h4">アプリリンク</Typography>
           <Box p={4}>
-            <Link href="/dashboard">Dashboard</Link>
+            <Link href="/airbnb">Airbnb</Link>
           </Box>
         </Box>
-        <UIList />
-        <ColorPalette />
       </main>
     </div>
   );

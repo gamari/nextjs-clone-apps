@@ -7,7 +7,7 @@ const Header = () => {
     <AppBar position="static" className="bg-dark">
       <Toolbar>
         <Typography variant="h6" className="flex-1">
-          ヘッダー
+          Cloneアプリケーション
         </Typography>
       </Toolbar>
     </AppBar>
