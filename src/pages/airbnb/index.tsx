@@ -5,6 +5,7 @@ import CssBaseline from "@mui/material/CssBaseline";
 
 import Header from "../../components/airbnb/Header";
 import AppThemeProvider from "../../components/themes/AppThemeProvider";
+import OptionsTab from "../../components/airbnb/OptionsTab";
 
 const Index = () => {
   return (
@@ -19,6 +20,7 @@ const Index = () => {
       >
         <Box>
           <Header />
+          <OptionsTab />
         </Box>
       </Box>
     </AppThemeProvider>

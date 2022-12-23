@@ -9,7 +9,9 @@
 - [Stack](https://mui.com/material-ui/react-stack/#main-content)
   - アイテムを並べるためのコンポーネント。
 - [IconButton]
-  - 
+  - アイコン付きのボタン？
+- [Tabs]
+- 
 
 ### テクニック
 
