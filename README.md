@@ -19,4 +19,6 @@ Next.jsを利用したクローンアプリケーション。
 - [FullCalendar](https://www.npmjs.com/package/@fullcalendar/react)
 - [nibo](https://nivo.rocks/)
 - [react-pro-sidebar](https://www.npmjs.com/package/react-pro-sidebar)
+- [react-swipeable-views](https://react-swipeable-views.com/getting-started/installation/)
 
+##

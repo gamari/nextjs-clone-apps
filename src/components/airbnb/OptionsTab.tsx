@@ -15,7 +15,7 @@ const OptionsTab = () => {
   };
 
   return (
-    <Container>
+    <Container maxWidth="xl">
       <Box
         sx={{
           display: "flex",

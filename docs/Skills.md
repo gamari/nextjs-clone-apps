@@ -11,7 +11,23 @@
 - [IconButton]
   - アイコン付きのボタン？
 - [Tabs]
-- 
+- [Grid] グリッドを扱える
+  - 12カラム用意されている
+
+### Grid
+
+Sample
+
+```JSX
+<Grid container rowSpacing={3} columnSpacing={3}>
+  {cards.map((location) => (
+    <Grid key={location.id} item xs={12} sm={4} md={4} lg={3}>
+      <CarouselCard location={location} />
+    </Grid>
+  ))}
+</Grid>
+```
+
 
 ### テクニック
 

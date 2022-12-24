@@ -21,6 +21,21 @@ import { AiOutlineCoffee } from "react-icons/ai";
 import { FaCampground, FaUmbrellaBeach, FaSwimmingPool } from "react-icons/fa";
 import { RiEarthquakeFill } from "react-icons/ri";
 
+// Types
+export interface LocationType {
+  id: number;
+  locationImages: {
+    id: number;
+    url: string;
+  }[];
+  location: string;
+  days: string;
+  price: string;
+  isNew: boolean;
+  rating: number;
+}
+
+// Datas
 export const locationsTab = [
   { id: 1, label: "Design", icon: <MdOutlineApartment size={24} /> },
   { id: 2, label: "Arctic", icon: <BsSnow size={24} /> },
@@ -44,7 +59,7 @@ export const locationsTab = [
   { id: 20, label: "Amazing Pools", icon: <FaSwimmingPool size={24} /> },
 ];
 
-export const locations = [
+export const locations: LocationType[] = [
   {
     id: 1,
     locationImages: [
