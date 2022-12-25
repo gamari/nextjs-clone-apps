@@ -2,7 +2,7 @@ import { Box, Button, Container, Tab, Tabs, tabsClasses } from "@mui/material";
 import React, { useState } from "react";
 
 import { FaFilter } from "react-icons/fa";
-import { locationsTab } from "./mockAirbnb";
+import { locationsTab } from "../../data/mockAirbnb";
 
 const OptionsTab = () => {
   const [value, setValue] = useState(0);

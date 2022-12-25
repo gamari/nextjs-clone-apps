@@ -21,4 +21,10 @@ Next.jsを利用したクローンアプリケーション。
 - [react-pro-sidebar](https://www.npmjs.com/package/react-pro-sidebar)
 - [react-swipeable-views](https://react-swipeable-views.com/getting-started/installation/)
 
+### API
+
+- [Youtube API](https://developers.google.com/youtube/v3/docs/videos/list?hl=ja)
+- 
+
 ##
+

@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 import { Box, Grid } from "@mui/material";
 
-import { locations as cardLocations } from "./mockAirbnb";
+import { locations as cardLocations } from "../../data/mockAirbnb";
 import CarouselCard from "./CarouselCard";
 
 const LocationCards = () => {

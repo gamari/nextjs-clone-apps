@@ -14,7 +14,7 @@ import {
   fixedIcon,
   flexBetween,
 } from "../themes/commonThemes";
-import { LocationType } from "./mockAirbnb";
+import { LocationType } from "../../data/mockAirbnb";
 
 const CarouselCard: FunctionComponent<{ location: LocationType }> = ({
   location,
@@ -35,7 +35,7 @@ const CarouselCard: FunctionComponent<{ location: LocationType }> = ({
   };
 
   return (
-    <Box className="" sx={{ flexGrow: 1, position: "relative" }}>
+    <Box sx={{ flexGrow: 1, position: "relative" }}>
       <Box sx={fixedIcon}>
         <FaRegHeart size={24} color="#fff" />
       </Box>

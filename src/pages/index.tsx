@@ -19,9 +19,21 @@ const Home: NextPage = () => {
       <Header />
       <main className="flex flex-col w-full h-screen px-6 pt-10 mx-auto max-w-7xl">
         <Box>
+          <Typography variant="h4">参考リンク</Typography>
+          <Box p={4} display="flex" flexDirection={"column"}>
+            <Link href="https://react-icons.github.io/react-icons/">
+              react-icons
+            </Link>
+            <Link href="https://github.com/alan2207/bulletproof-react">
+              bulletproof-react
+            </Link>
+          </Box>
+        </Box>
+        <Box>
           <Typography variant="h4">アプリリンク</Typography>
-          <Box p={4}>
+          <Box p={4} display="flex" flexDirection={"column"}>
             <Link href="/airbnb">Airbnb</Link>
+            <Link href="/youtube">Youtube</Link>
           </Box>
         </Box>
       </main>
